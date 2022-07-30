@@ -9,7 +9,7 @@ body {
 }
 .h1 {
     text-align: center;
-    font-size: 15rem;
+    margin: 5px;
 }
 .flex {
     display: flex;
@@ -19,7 +19,7 @@ body {
     margin-left: 20px;
 }
 .titleForm {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-right: 1rem;
 }
 .no {
