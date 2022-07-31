@@ -21,9 +21,7 @@ falta.innerHTML = necesidad;
 
 tomado.innerHTML = litrosDisplay;
     
-window.onload = function() {
-    check()
-  };
+
 
 
 function agregarLitros() {
