@@ -40,7 +40,7 @@ function agregarLitros() {
     tomado.innerHTML = litrosDisplay;
     necesidad = litrosGoal - litrosConsumidos;
     falta.innerHTML = necesidad;
-    
+    form.reset();
     console.log(litrosConsumidos);
 }
 
@@ -51,7 +51,7 @@ function check() {
        h2n.classList.add('no')
        success.innerHTML = '✅'
     } else {
-        msj.innerHTML = 'te falta water maestro'
+        msj .innerHTML = 'te falta water maestro'
     }
 }
 

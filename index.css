@@ -11,6 +11,7 @@ body {
     text-align: center;
     margin: 1%;
 }
+
 .flex {
     display: flex;
     gap: 1rem;
