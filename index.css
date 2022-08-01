@@ -6,10 +6,14 @@ body {
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    background-image: url('agua-m.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .h1 {
     text-align: center;
     margin: 1%;
+  color: white;
 }
 
 .flex {
@@ -19,9 +23,21 @@ body {
 .contenedor {
     margin-left: 20px;
 }
+.containerr {
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(24px);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 .titleForm {
     font-size: 2rem;
     margin-right: 1rem;
+    color: white;
 }
 .no {
     display: none;
