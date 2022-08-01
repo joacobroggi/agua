@@ -23,16 +23,13 @@ body {
 .contenedor {
     margin-left: 20px;
 }
-.containerr {
+.container {
     margin: 0 auto;
     padding: 2%;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(24px);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+   
 }
 .titleForm {
     font-size: 2rem;
