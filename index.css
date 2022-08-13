@@ -29,8 +29,9 @@ body {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(24px);
-   
+ 
 }
+
 .titleForm {
     font-size: 2rem;
     margin-right: 1rem;

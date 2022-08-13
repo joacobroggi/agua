@@ -10,6 +10,12 @@ const litrosGoal = 2800;
 let h2n = document.querySelector('.h2-n')
 
 
+if (!localStorage.getItem("litros-consumidos")) {
+    localStorage.setItem("litros-consumidos", 0);
+
+    window.location.reload();
+}
+
 let litrosConsumidos = localStorage.getItem("litros-consumidos");
 
 
